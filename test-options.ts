@@ -1,6 +1,6 @@
 // import {test as base} from "@playwright/test";
 import { test as base} from '@applitools/eyes-playwright/fixture'
-import {PageManager} from "../trello_api_with_TS/src/pageManager";
+import {PageManager} from "../TypeScriptPlaywright_Trello_Smoke/src/pageManager";
 
 export type TestOptions = {
     pageManager: PageManager;
